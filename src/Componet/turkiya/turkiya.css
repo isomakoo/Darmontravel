@@ -1,0 +1,46 @@
+.turkiy-listes{
+width: 750px;
+display: flex;
+justify-content: space-between;
+list-style: none;
+margin-top: -170px;
+margin-left: 180px;
+}
+.turkiy-listt{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 180px;
+    }
+.turkiya-list{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.turkiya-img{
+    width: 500px;
+}
+.turkiya-title{
+    width: 650px;
+    top: 2158px;
+    left: 902px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Google Sans;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 34.34px;
+    text-align: left;
+    color: #004290;    
+}
+.turkiya-text{
+    width: 650px;
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 34.5px;
+    text-align: left;
+    color: #004290;        
+}

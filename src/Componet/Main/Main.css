@@ -1,0 +1,125 @@
+#Main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #F1F3FF;
+}
+.container{
+    width: 1200px;
+    padding: 0;margin: 0 auto;
+}
+.main-title{
+    top: 51px;
+    margin-top: 51px;
+    left: 884px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
+    color: #004290;        
+}
+.main-swiper-img{
+    width: 250px !important;
+    height: 300px !important;
+    border-radius: 10px 10px 0 0;
+}
+.main-link{
+    text-decoration: none;
+}
+.main-hr{
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    width: 100px;
+    margin-left: 20px;
+}
+.main-swiper-title{
+    gap: 0px;
+    opacity: 0px;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.13px;
+    text-align: left;
+    margin-top: -10px;
+    color: #5E6282;        
+}
+.main-swiper-text{
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 24.9px;
+    text-align: left;
+    color: #5E6282;  
+}
+.main-list{
+    width: 1200px;
+    height: 180px;
+    top: 13px;
+    gap: 0px;
+    border-radius: 25px;
+    opacity: 0px;
+    background: #004290;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-list-img{
+    margin-right: 30px;
+    width: 140px;
+    height: 150px;
+}
+.main-list-images{
+    margin-right: 30px;
+    width: 140px;
+    height: 150px;
+}
+.main-list-title{
+    padding-left: 20px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    width: 787px;
+    top: 61px;
+    left: 35px;
+    gap: 0px;
+    color: white;
+    opacity: 0px;        
+}
+.text-main{
+    color: #54FFEA;
+}
+.main-list-text{
+  padding-left: 20px;
+    margin-top: -35px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+    width: 400px;
+    top: 120px;
+    left: 193px;
+    gap: 0px;
+    opacity: 0px;    
+}
+.title-main{
+    font-family: Google Sans;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #54FFEA;
+    
+}

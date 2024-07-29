@@ -1,0 +1,112 @@
+.foother{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #004290;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+.foother-list {
+   display: flex;
+   justify-content: space-between;
+    width: 1200px;
+  }
+  .foother-img{
+    width: 400px;
+    height: 200px;
+  }
+  .foother-nav{
+    width: 800px;
+  }
+  .foother-text{
+    width: 710px;
+    font-family: Google Sans;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 31.8px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 20px;
+  }
+  .foother-input{
+    width: 340.21px;
+    padding-left: 10px;
+    font-size: 22px;
+    height: 38px;
+    margin-top: -20px;
+    top: 4463px;
+    left: 195.79px;
+    gap: 0px;
+    margin-left: 20px;
+    border-radius: 3px 0px 0px 0px;
+    border: 5px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF    
+  }
+  .foother-btn{
+    width: 220px;
+    margin-left: 40px;
+    margin-top: -10px;
+    height: 40px;
+    padding: 12px 18px 12px 18px;
+    gap: 10px;
+    border-radius: 3px;
+    opacity: 0px;
+    background: #23AF5F;
+    font-family: Google Sans;
+    font-size:  18px;
+    font-weight: 500;
+    line-height: 15.26px;
+    text-align: center;
+    color: #FFFFFF;
+    border: transparent;    
+    transition: 0.3s;
+  }
+  .foother-btn:active{
+    background-color: #004290;
+  }
+  .foother-titles{
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    
+  }
+  .foother-icon{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+  }
+  .foother-link {
+    max-width: 400px;
+    position: relative;
+    top: -10px;
+    font-family: 'Google Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24.52px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+  }  
+  .foother-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 80px;
+  }
+  #hero-icons{
+   width: 40px;
+   height: 40px;
+  }
