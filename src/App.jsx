@@ -8,29 +8,20 @@ import Parij from './Componet/Parij/Parij';
 import Sidebar from './Componet/Sidebar/Sidebar';
 import Foother from './Componet/foother/foother';
 import Turkiya from './Componet/turkiya/turkiya';
+import Home from './Componet/Home/home';
 
 function App() {
-  const location = useLocation();
-  
-  // Sahifa yo'nalishlarini tekshirish
-  const isMisrPage = location.pathname === '/misr';
 
   return (
     <>
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/parij" element={<Parij />} />
-        <Route path="/app" element={<App></App>} />
+        <Route path="/app" element={<App />} />
         <Route path="/turkiya" element={<Turkiya />} />
         <Route path="/misr" element={<Misr />} />
         <Route path="/dubai" element={<Dubai />} />
       </Routes>
-
-      {!isMisrPage && <Hero />}
-      {!isMisrPage && <Main />}
-      {!isMisrPage && <Sidebar />}
-      {!isMisrPage && <Foother />}
-
-    
     </>
   );
 }

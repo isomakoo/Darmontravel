@@ -30,6 +30,20 @@ function Main() {
             spaceBetween={30}
             modules={[Pagination]}
             className="mySwiper"
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+              },
+              700: {
+                slidesPerView: 2,
+              },
+              850: {
+                slidesPerView: 3,
+              },
+              1050: {
+                slidesPerView: 4,
+              },
+            }}
           >
             <SwiperSlide>
               <Link to="/turkiya" className="main-link">
@@ -85,7 +99,7 @@ function Main() {
                 <span className="title-main">10%</span> chegirmaga ega bo’ling
               </p>
             </nav>
-            <nav>
+            <nav className="main-iconss">
               <img src={paric} alt="paric" className="main-list-img" />
               <img src={tailand} alt="Tailand" className="main-list-images" />
             </nav>

@@ -2,7 +2,7 @@ import './Hero.css'
 import groupImage from '../../assets/Group 2.png';
 import Image12 from '../../assets/Image (12).png';
 import Modal from '../Modal/Modal';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 function Hero() {
     const [show, setShow] = useState(false);
 
@@ -13,6 +13,19 @@ function Hero() {
     const hideModal = () => {
       setShow(false);
     };
+    useEffect(() => {
+      const links = document.querySelectorAll('.hero-navbar-item-link');
+  
+      links.forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const targetId = link.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        });
+      });
+    }, []);
+  
   return (
     <>
      <div className="hero">
@@ -23,7 +36,7 @@ function Hero() {
                     <li className="hero-navber-item"><a href="#Main" className="hero-navbar-item-link">Turlar</a></li>
                     <li className="hero-navber-item"><a href="#sidebar-list" className="hero-navbar-item-link">Biz Haqimizda</a></li>
                     <li className="hero-navber-item"><a href="#sidebar-navbar" className="hero-navbar-item-link">Bizning Afzalliklarimiz</a></li>
-                    <li className="hero-navber-item"><a href="#" className="hero-navbar-item-link">Aloqa</a></li>
+                    <li className="hero-navber-item"><a href="#foother-item" className="hero-navbar-item-link">Aloqa</a></li>
                 </ul>
                 <select className='hero-list-select'>
                     <option value="uz">Uz</option>

@@ -15,7 +15,7 @@ function Sidebar() {
         <div className="container">
           <h3 className="sidebar-title">BIZ HAQIMIZDA</h3>
           <div id="sidebar-list">
-            <nav>
+            <nav className="sidebar-nav">
               <p className="sidebar-text">
                 Bizning kompaniyamiz 2024 yilda Toshkentda tashkil etilgan
                 bo'lib, jadal rivojlanib, dunyo bo'ylab noyob turlar va

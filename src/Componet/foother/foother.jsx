@@ -85,7 +85,7 @@ function Foother() {
             </nav>
             <img src={image} alt="rasm" className="foother-image" />
           </div>
-          <ul className="foother-item">
+          <ul id="foother-item">
             <li className="foother-ietn-nav">
               <nav className="texte">
                 <img src={phonecall} alt="rasm" id="hero-icons" />{" "}

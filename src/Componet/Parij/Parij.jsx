@@ -25,22 +25,22 @@ function Parij() {
             </a>
             <ul className="hero-navbar">
               <li className="hero-navber-item">
-                <a href="#Main" className="hero-navbar-item-link">
+                <a href="/" className="hero-navbar-item-link">
                   Turlar
                 </a>
               </li>
               <li className="hero-navber-item">
-                <a href="#sidebar-list" className="hero-navbar-item-link">
+                <a href="/" className="hero-navbar-item-link">
                   Biz Haqimizda
                 </a>
               </li>
               <li className="hero-navber-item">
-                <a href="#sidebar-navbar" className="hero-navbar-item-link">
+                <a href="/" className="hero-navbar-item-link">
                   Bizning Afzalliklarimiz
                 </a>
               </li>
               <li className="hero-navber-item">
-                <a href="#" className="hero-navbar-item-link">
+                <a href="/" className="hero-navbar-item-link">
                   Aloqa
                 </a>
               </li>
